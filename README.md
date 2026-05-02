@@ -1,51 +1,63 @@
 # Expense Tracker
 
-## Overview
+A simple and interactive expense tracking application built using HTML, CSS, and JavaScript.
+This project demonstrates core frontend concepts such as DOM manipulation, event handling, and local storage usage.
 
-This project is a web-based Expense Tracker application developed using HTML, CSS, and JavaScript. It enables users to record, manage, and analyze their income and expenses in a simple and efficient manner. The application dynamically updates financial summaries and persists data using the browser's local storage.
+---
 
 ## Features
 
-* Add and delete financial transactions
-* Real-time balance calculation
+* Add income and expense transactions
+* Delete transactions
+* Automatic balance calculation
 * Separate tracking of income and expenses
-* Persistent data storage using localStorage
-* Responsive and user-friendly interface
+* Persistent data using localStorage
 
-## Technologies Used
+---
 
-* HTML for structure
-* CSS for styling and layout
-* JavaScript for application logic and DOM manipulation
+## Tech Stack
 
-## How to Use
+* HTML
+* CSS
+* JavaScript
 
-1. Enter a description for the transaction
-2. Input the transaction amount
+---
 
-   * Positive values represent income
-   * Negative values represent expenses
-3. Submit the form to add the transaction
-4. View updated balance, income, and expense summaries
-5. Remove transactions as needed
+## How to Run
+
+1. Clone the repository:
+   git clone https://github.com/annett-george/expense-tracker.git
+
+2. Navigate to the project folder:
+   cd expense-tracker
+
+3. Open `index.html` in your browser
+
+---
+
+## How It Works
+
+* User enters a description and amount
+* Positive values are treated as income
+* Negative values are treated as expenses
+* Transactions are stored in localStorage
+* Balance, income, and expenses update dynamically
+
+---
+
+## Concepts Used
+
+* DOM Manipulation
+* Event Handling
+* Arrays and Objects
+* Local Storage
+* Dynamic Content Rendering
+
+---
 
 ## Live Demo
 
-Access the application here:
 https://annett-george.github.io/expense-tracker/
 
-
-## Implementation Details
-
-The application maintains a list of transactions in memory and synchronizes it with localStorage to ensure persistence across sessions. JavaScript functions handle transaction creation, deletion, and summary calculations. The user interface is updated dynamically using DOM manipulation.
-
-## Future Enhancements
-
-* Edit transaction functionality
-* Data visualization using charts
-* Backend integration for cloud storage
-* User authentication and multi-user support
-
-## Author
 
 Annett George
