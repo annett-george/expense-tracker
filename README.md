@@ -29,12 +29,11 @@ This project is a web-based Expense Tracker application developed using HTML, CS
 4. View updated balance, income, and expense summaries
 5. Remove transactions as needed
 
-## Project Structure
+## Live Demo
 
-expense-tracker/
-│── index.html
-│── style.css
-│── script.js
+Access the application here:
+https://annett-george.github.io/expense-tracker/
+
 
 ## Implementation Details
 
